@@ -1,0 +1,14 @@
+## Day 1 — Setting up Kubernetes locally
+
+**Goal:** Install Minikube and run first K8s cluster
+
+**What I learned so far:**
+- Minikube runs a single-node K8s cluster locally
+- It uses Docker as a driver — cluster runs inside Docker
+- kubectl is the CLI to talk to K8s (already installed v1.34)
+- Three things needed before starting: Docker Desktop, kubectl, and Minikube
+
+**Prerequisites check:**
+- Docker: ✅ v29.1.3
+- kubectl: ✅ v1.34.1  
+- Minikube: ✅Installed (brew install minikube) for Mac
